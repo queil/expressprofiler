@@ -28,14 +28,6 @@
     <Compile Include="Product.wxs" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\ExpressProfiler.Ecosystem\ExpressProfiler.Ecosystem.csproj">
-      <Name>ExpressProfiler.Ecosystem</Name>
-      <Project>{543ad465-4b97-4000-b0b0-d383403e005d}</Project>
-      <Private>True</Private>
-      <DoNotHarvest>True</DoNotHarvest>
-      <RefProjectOutputGroups>Binaries;Content;Satellites</RefProjectOutputGroups>
-      <RefTargetDir>INSTALLFOLDER</RefTargetDir>
-    </ProjectReference>
     <ProjectReference Include="..\ExpressProfiler\ExpressProfiler.csproj">
       <Name>ExpressProfiler</Name>
       <Project>{74d3e3a1-9dbc-4880-841c-fa5583611a73}</Project>
